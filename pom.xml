@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.zhen77</groupId>
+    <artifactId>zhen77-momo-mall-parent</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <!--父项目不能打成jar 或者 war -->
+    <!--该代码是将该项目编译打包之后呈现成什么样子-->
+    <packaging>pom</packaging>
+    <!-- 当这个模块需要被管理时需要加入该模块代码(自动生成的)-->
+    <modules>
+        <module>zhen77-momo-api</module>
+
+        <module>zhen77-momo-common</module>
+        <module>zhen77-momo-service</module>
+        <module>zhen77-momo-application web</module>
+        <module>zhen77-momo-job</module>
+        <module>zhen77-momo-generator</module>
+    </modules>
+
+</project>

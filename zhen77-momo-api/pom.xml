@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>zhen77-momo-mall-parent</artifactId>
+        <groupId>org.zhen77</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>zhen77-momo-api</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>zhen77-momo-oms-api</module>
+        <module>zhen77-momo-pms-api</module>
+        <module>zhen77-momo-ums-api</module>
+        <module>zhen77-momo-pay-api</module>
+        <module>zhen77-momo-pay-api</module>
+        <module>zhen77-momo-cart-api</module>
+        <module>zhen77-momo-dictionary-api</module>
+        <module>zhen77-momo-sms-api</module>
+        <module>zhen77-momo-cms-api</module>
+    </modules>
+
+
+</project>
