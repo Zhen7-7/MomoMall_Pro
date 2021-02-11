@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="zhen77-momo-common-util" />
+        <module name="zhen77-momo-job" />
+        <module name="zhen77-momo-cms" />
+        <module name="zhen77-momo-pay-api" />
+        <module name="zhen77-momo-dictionary-api" />
+        <module name="zhen77-momo-pms-api" />
+        <module name="zhen77-momo-cms-api" />
+        <module name="zhen77-momo-cart" />
+        <module name="zhen77-momo-oms" />
+        <module name="zhen77-momo-generator" />
+        <module name="zhen77-momo-oms-api" />
+        <module name="zhen77-momo-sms" />
+        <module name="zhen77-momo-pay" />
+        <module name="zhen77-momo-ums" />
+        <module name="zhen77-momo-ums-api" />
+        <module name="zhen77-momo-cart-api" />
+        <module name="zhen77-momo-pms" />
+        <module name="zhen77-momo-common-base" />
+        <module name="zhen77-momo-dictionary" />
+        <module name="zhen77-momo-manager-web" />
+        <module name="zhen77-momo-portal-web" />
+        <module name="zhen77-momo-sms-api" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="zhen77-momo-cart" options="-parameters" />
+      <module name="zhen77-momo-cms" options="-parameters" />
+      <module name="zhen77-momo-common-base" options="-parameters" />
+      <module name="zhen77-momo-common-util" options="-parameters" />
+      <module name="zhen77-momo-dictionary" options="-parameters" />
+      <module name="zhen77-momo-generator" options="-parameters" />
+      <module name="zhen77-momo-job" options="-parameters" />
+      <module name="zhen77-momo-manager-web" options="-parameters" />
+      <module name="zhen77-momo-oms" options="-parameters" />
+      <module name="zhen77-momo-pay" options="-parameters" />
+      <module name="zhen77-momo-pms" options="-parameters" />
+      <module name="zhen77-momo-portal-web" options="-parameters" />
+      <module name="zhen77-momo-sms" options="-parameters" />
+      <module name="zhen77-momo-ums" options="-parameters" />
+    </option>
+  </component>
+</project>

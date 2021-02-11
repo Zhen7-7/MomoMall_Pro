@@ -4,6 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.4.1</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
     <groupId>org.zhen77</groupId>
     <artifactId>zhen77-momo-mall-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
@@ -13,12 +20,24 @@
     <!-- 当这个模块需要被管理时需要加入该模块代码(自动生成的)-->
     <modules>
         <module>zhen77-momo-api</module>
-
         <module>zhen77-momo-common</module>
         <module>zhen77-momo-service</module>
         <module>zhen77-momo-application web</module>
         <module>zhen77-momo-job</module>
         <module>zhen77-momo-generator</module>
     </modules>
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.16</version>
+        </dependency>
+
+        <!--spring validation 校验-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-validation</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
