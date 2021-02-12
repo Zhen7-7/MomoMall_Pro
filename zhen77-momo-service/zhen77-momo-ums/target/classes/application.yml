@@ -14,4 +14,4 @@ mybatis-plus:
       logic-delete-value: 1
       logic-not-delete-value: 0
   mapper-locations:
-  - classpath*:/cn/zhen77/zhen77momoums/mapper/xml/*.xml
+  - classpath*:/cn/zhen77/momo/ums/mapper/xml/*.xml

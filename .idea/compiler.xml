@@ -7,13 +7,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="zhen77-momo-pms" />
         <module name="zhen77-momo-common-util" />
         <module name="zhen77-momo-job" />
         <module name="zhen77-momo-cms" />
         <module name="zhen77-momo-pay-api" />
         <module name="zhen77-momo-dictionary-api" />
         <module name="zhen77-momo-pms-api" />
+        <module name="zhen77-momo-manager-web" />
         <module name="zhen77-momo-cms-api" />
         <module name="zhen77-momo-cart" />
         <module name="zhen77-momo-oms" />
@@ -23,10 +23,10 @@
         <module name="zhen77-momo-ums" />
         <module name="zhen77-momo-oms-api" />
         <module name="zhen77-momo-cart-api" />
+        <module name="zhen77-momo-pms" />
         <module name="zhen77-momo-ums-api" />
-        <module name="zhen77-momo-common-base" />
         <module name="zhen77-momo-dictionary" />
-        <module name="zhen77-momo-manager-web" />
+        <module name="zhen77-momo-common-base" />
         <module name="zhen77-momo-portal-web" />
         <module name="zhen77-momo-sms-api" />
       </profile>

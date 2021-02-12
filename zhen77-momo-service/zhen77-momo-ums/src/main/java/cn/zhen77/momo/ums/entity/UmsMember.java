@@ -54,11 +54,10 @@ public class UmsMember implements Serializable {
     /**
      * 创建时间
      */
-      @TableField(fill = FieldFill.INSERT)
-    private Date createTime;
-
-      @TableField(fill = FieldFill.INSERT_UPDATE)
-    private Date updateTime;
+    @TableField(fill = FieldFill.INSERT) //该注解就会在更新的时候插入时间
+    private Date gmtCreate;
+    @TableField(fill = FieldFill.INSERT_UPDATE) //该注解就会在更新和插入的时候插入时间
+    private Date gmtModified;
 
     /**
      * 最后登录时间

@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.stereotype.Component;
 
 /**
  * @author : zhen77
@@ -30,5 +31,12 @@ public class UserMemberTest {
         t.setEmail("email");
         int i = umsMemberMapper.insert(t);
         System.out.println(i==1?"添加成功":"添加失败");
+    }
+    @Test
+    void testUpdate(){
+        UmsMember t = new UmsMember();
+        t.setId(15L);
+
+        umsMemberMapper.updateById(t);
     }
  }
