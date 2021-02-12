@@ -38,12 +38,14 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
-
+        <!--lombok-->
+        <!--使用lombok只需在类前加入@Data/@set/@get,就无须设置set get方法   简言之能简化好多开发-->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
         </dependency>
 
+        <!--Mybatis-plus-->
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
@@ -57,6 +59,7 @@
             <version>2.0</version>
         </dependency>
 
+        <!-- 代码生成器-->
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-generator</artifactId>

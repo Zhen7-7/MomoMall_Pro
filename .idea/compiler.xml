@@ -2,10 +2,12 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="zhen77-momo-pms" />
         <module name="zhen77-momo-common-util" />
         <module name="zhen77-momo-job" />
         <module name="zhen77-momo-cms" />
@@ -16,13 +18,12 @@
         <module name="zhen77-momo-cart" />
         <module name="zhen77-momo-oms" />
         <module name="zhen77-momo-generator" />
-        <module name="zhen77-momo-oms-api" />
         <module name="zhen77-momo-sms" />
         <module name="zhen77-momo-pay" />
         <module name="zhen77-momo-ums" />
-        <module name="zhen77-momo-ums-api" />
+        <module name="zhen77-momo-oms-api" />
         <module name="zhen77-momo-cart-api" />
-        <module name="zhen77-momo-pms" />
+        <module name="zhen77-momo-ums-api" />
         <module name="zhen77-momo-common-base" />
         <module name="zhen77-momo-dictionary" />
         <module name="zhen77-momo-manager-web" />
