@@ -16,11 +16,12 @@ import org.springframework.stereotype.Service;
  * @since 2021-02-12
  */
 @Service
-public class UmsMemberServiceImpl extends ServiceImpl<UmsMemberMapper, UmsMember> implements UmsMemberService {
+public class UmsMemberServiceImpl implements UmsMemberService {
     @Autowired
     UmsMemberMapper umsMemberMapper;
 
-    public String register(){
+    @Override
+    public String register() {
         UmsMember u = new UmsMember();
         u.setNickName("c");
         umsMemberMapper.insert(u);

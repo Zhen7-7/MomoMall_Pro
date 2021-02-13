@@ -6,14 +6,15 @@
     <parent>
         <artifactId>zhen77-momo-api</artifactId>
         <groupId>org.zhen77</groupId>
-        <version>1.0-SNAPSHOT</version>
+        <version>0.0.1-SNAPSHOT</version>
     </parent>
 
 
-        <groupId>org.zhen77</groupId>
-        <artifactId>zhen77-momo-ums-api</artifactId>
-        <version>1.0-SNAPSHOT</version>
-
+    <groupId>org.zhen77</groupId>
+    <artifactId>zhen77-momo-ums-api</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>zhen77-momo-ums-api</name>
+    <description>Demo project for Spring Boot</description>
 
 
     <dependencies>

@@ -3,6 +3,8 @@ package cn.zhen77.momo.portal.web;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
+import org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration;
 
 /**
  * @author : zhen77
@@ -11,9 +13,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @version: 1.0
  */
 @SpringBootApplication(scanBasePackages = {"cn.zhen77"})
-@MapperScan("cn.zhen77.momo.ums")
-public class Application {
+@MapperScan("cn.zhen77.momo.ums.mapper")
+public class PortalWevApplication {
     public static void main(String[] args) {
-        SpringApplication.run(Application.class,args);
+        SpringApplication.run(PortalWevApplication.class,args);
     }
 }

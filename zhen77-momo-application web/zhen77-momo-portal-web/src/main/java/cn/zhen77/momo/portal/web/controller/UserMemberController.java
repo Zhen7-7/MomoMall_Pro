@@ -18,6 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserMemberController {
     @Autowired
     UmsMemberService umsMemberService;
+
     @GetMapping("/hello")
     public String hello(){
         return  "hello";
