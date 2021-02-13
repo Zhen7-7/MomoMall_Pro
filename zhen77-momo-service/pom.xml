@@ -8,7 +8,7 @@
         <groupId>org.zhen77</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-
+    <groupId>org.zhen77</groupId>
     <artifactId>zhen77-momo-service</artifactId>
     <packaging>pom</packaging>
     <modules>

@@ -13,7 +13,6 @@
         <module name="zhen77-momo-pay-api" />
         <module name="zhen77-momo-dictionary-api" />
         <module name="zhen77-momo-pms-api" />
-        <module name="zhen77-momo-manager-web" />
         <module name="zhen77-momo-cms-api" />
         <module name="zhen77-momo-cart" />
         <module name="zhen77-momo-oms" />
@@ -23,10 +22,11 @@
         <module name="zhen77-momo-ums" />
         <module name="zhen77-momo-oms-api" />
         <module name="zhen77-momo-cart-api" />
+        <module name="zhen77-momo-common-base" />
         <module name="zhen77-momo-pms" />
         <module name="zhen77-momo-ums-api" />
         <module name="zhen77-momo-dictionary" />
-        <module name="zhen77-momo-common-base" />
+        <module name="zhen77-momo-manager-web" />
         <module name="zhen77-momo-portal-web" />
         <module name="zhen77-momo-sms-api" />
       </profile>
@@ -48,6 +48,7 @@
       <module name="zhen77-momo-portal-web" options="-parameters" />
       <module name="zhen77-momo-sms" options="-parameters" />
       <module name="zhen77-momo-ums" options="-parameters" />
+      <module name="zhen77-momo-ums-api" options="-parameters" />
     </option>
   </component>
 </project>

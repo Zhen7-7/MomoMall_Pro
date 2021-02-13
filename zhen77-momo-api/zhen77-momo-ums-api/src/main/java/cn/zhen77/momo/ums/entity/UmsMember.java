@@ -1,14 +1,14 @@
 package cn.zhen77.momo.ums.entity;
 
-import com.baomidou.mybatisplus.annotation.IdType;
-import java.util.Date;
-import com.baomidou.mybatisplus.annotation.Version;
-import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.FieldFill;
+import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
-import java.io.Serializable;
+import com.baomidou.mybatisplus.annotation.TableId;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+
+import java.io.Serializable;
+import java.util.Date;
 
 /**
  * <p>
@@ -18,7 +18,7 @@ import lombok.EqualsAndHashCode;
  * @author 孙朕
  * @since 2021-02-12
  */
-@Data
+@Data//报错就说明缺少lombook
 @EqualsAndHashCode(callSuper = false)
 public class UmsMember implements Serializable {
 
