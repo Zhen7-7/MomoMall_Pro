@@ -9,7 +9,12 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>zhen77-momo-ums-api</artifactId>
+
+        <groupId>org.zhen77</groupId>
+        <artifactId>zhen77-momo-ums-api</artifactId>
+        <version>1.0-SNAPSHOT</version>
+
+
 
     <dependencies>
         <dependency>

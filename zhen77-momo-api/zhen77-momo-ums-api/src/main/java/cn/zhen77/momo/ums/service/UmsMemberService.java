@@ -13,5 +13,5 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @since 2021-02-12
  */
 public interface UmsMemberService extends IService<UmsMember> {
-
+    public String register();
 }
